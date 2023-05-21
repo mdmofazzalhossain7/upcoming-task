@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Announcements, CreatePost, Home, Profile, Tasks } from "./pages";
+import { Topbar, Navbar } from "./components";
 
 const App = () => {
   return (
     <Router>
+      <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/announcements" element={<Announcements />} />
@@ -11,6 +13,7 @@ const App = () => {
         <Route path="profile" element={<Profile />} />
         <Route path="/tasks" element={<Tasks />} />
       </Routes>
+      <Navbar />
     </Router>
   );
 };
