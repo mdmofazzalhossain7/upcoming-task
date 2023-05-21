@@ -8,7 +8,7 @@ import Avatar from "./Avatar";
 
 const Navbar = () => {
   return (
-    <div className="fixed bottom-[-4px] left-0 right-0 sm:hidden">
+    <div className="fixed bottom-0 border-t-2 border-t-blue-200 left-0 right-0  sm:hidden bg-white">
       <div className="flex items-center justify-between w-full gap-x-2 px-4">
         <NavIcon
           path="/"
@@ -21,7 +21,7 @@ const Navbar = () => {
           activeIcon={<HiMegaphone />}
         />
         <NavIcon
-          path="/create"
+          path="/posts/create"
           IconComponent={<IoAddCircleOutline />}
           activeIcon={<IoAddCircle />}
         />

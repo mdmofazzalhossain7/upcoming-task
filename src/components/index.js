@@ -7,3 +7,5 @@ export { default as Rightbar } from "./Rightbar";
 export { default as Topbar } from "./Topbar";
 export { default as NavIcon } from "./NavIcon";
 export { default as Navbar } from "./Navbar";
+export { default as Button } from "./Button";
+export { default as PostType } from "./PostType";

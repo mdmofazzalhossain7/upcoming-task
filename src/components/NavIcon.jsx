@@ -21,14 +21,13 @@ const NavIcon = ({ path, IconComponent, activeIcon }) => {
 
   return (
     <button
-      className={`py-2 px-2 sm:px-6 md:px-8  text-4xl border-b-[3px] border-b-transparent
-      transition delay-100
+      className={`py-2 px-2 sm:px-6 md:px-8  text-4xl sm:border-b-[3px] sm:border-b-transparent 
+      transition delay-75 duration-300 ease-in-out outline-blue-400
        ${
-         !active &&
-         "hover:bg-gray-100 active:text-gray-300 hover:text-blue-300 hover:animate-pulse"
+         !active && "hover:bg-gray-100 active:text-gray-300 hover:text-blue-300"
        }
        
-       ${active ? "border-b-blue-200 text-blue-400" : "text-gray-300"}
+       ${active ? " sm:border-b-blue-400  text-blue-400" : "text-gray-300"}
        `}
       onClick={() => navigate(path)}
     >

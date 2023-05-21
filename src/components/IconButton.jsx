@@ -1,7 +1,11 @@
 import React from "react";
 
-const IconButton = () => {
-  return <div>Icon Button</div>;
+const IconButton = ({ IconComponent, onClick, style }) => {
+  return (
+    <button className={style} onClick={onClick}>
+      {IconComponent}
+    </button>
+  );
 };
 
 export default IconButton;

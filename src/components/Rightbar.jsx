@@ -1,7 +1,7 @@
 import React from "react";
 
 const Rightbar = () => {
-  return <div>Rightbar</div>;
+  return <divs>Rightbar</divs>;
 };
 
 export default Rightbar;

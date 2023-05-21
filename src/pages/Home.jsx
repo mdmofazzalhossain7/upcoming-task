@@ -5,13 +5,13 @@ const Home = () => {
   return (
     <div>
       <div className="flex">
-        <div className="flex w-3/12">
+        <div className=" hidden sm:flex sm:w-3/12">
           <Leftbar />
         </div>
-        <div className="flex w-6/12">
+        <div className="flex sm:w-6/12 w-full h-full">
           <Feed />
         </div>
-        <div className="flex w-3/12">
+        <div className="hidden sm:flex sm:w-3/12">
           <Rightbar />
         </div>
       </div>

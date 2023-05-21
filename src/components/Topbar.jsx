@@ -27,7 +27,7 @@ const Topbar = () => {
             activeIcon={<AiFillHome />}
           />
           <NavIcon
-            path="/create"
+            path="/posts/create"
             IconComponent={<IoCreateOutline />}
             activeIcon={<IoCreate />}
           />
