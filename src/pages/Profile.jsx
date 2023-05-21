@@ -1,13 +1,7 @@
 import React from "react";
 import { AiOutlineLogout } from "react-icons/ai";
-import {
-  MdModeEditOutline,
-  MdBloodtype,
-  MdOutlineLocationCity,
-} from "react-icons/md";
-import { TiTick } from "react-icons/ti";
 
-import { AvatarWithBadge, Button } from "../components";
+import { Button } from "../components";
 
 const dp =
   "https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=";
@@ -40,7 +34,7 @@ const Profile = () => {
         <Button
           title="Log Out"
           path="/log-in"
-          style={"text-white bg-red-500 hover:bg-red-600 active:bg-red-400"}
+          styles={"text-white bg-red-500 hover:bg-red-600 active:bg-red-400"}
           IconComponent={<AiOutlineLogout />}
         />
       </div>
