@@ -1,7 +1,13 @@
 import React from "react";
+import { TopAd } from "../components";
 
 const Tasks = () => {
-  return <div>Tasks</div>;
+  return (
+    <div>
+      <TopAd />
+      Tasks
+    </div>
+  );
 };
 
 export default Tasks;

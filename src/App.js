@@ -1,5 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Announcements, CreatePost, Home, Profile, Tasks } from "./pages";
+import {
+  Announcements,
+  CreatePost,
+  Home,
+  Login,
+  Profile,
+  Tasks,
+} from "./pages";
 import { Topbar, Navbar } from "./components";
 
 const App = () => {
@@ -12,6 +19,7 @@ const App = () => {
         <Route path="/posts/create" element={<CreatePost />} />
         <Route path="profile" element={<Profile />} />
         <Route path="/tasks" element={<Tasks />} />
+        <Route path="/log-in" element={<Login />} />
       </Routes>
       <Navbar />
     </Router>

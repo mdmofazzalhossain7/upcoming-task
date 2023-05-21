@@ -9,3 +9,5 @@ export { default as NavIcon } from "./NavIcon";
 export { default as Navbar } from "./Navbar";
 export { default as Button } from "./Button";
 export { default as PostType } from "./PostType";
+export { default as TopAd } from "./TopAd";
+export { default as Post } from "./Post";
