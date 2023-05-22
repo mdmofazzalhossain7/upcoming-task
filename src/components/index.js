@@ -11,3 +11,5 @@ export { default as Button } from "./Button";
 export { default as PostType } from "./PostType";
 export { default as TopAd } from "./TopAd";
 export { default as Post } from "./Post";
+export { default as IconText } from "./IconText";
+export { default as ProfileInfo } from "./ProfileInfo";
