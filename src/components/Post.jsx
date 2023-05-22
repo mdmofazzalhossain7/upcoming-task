@@ -1,5 +1,6 @@
 import React from "react";
 import AvatarWithBadge from "./AvatarWithBadge";
+import { Link } from "react-router-dom";
 
 const photoUrl =
   "https://media.istockphoto.com/id/1329031407/photo/young-man-with-backpack-taking-selfie-portrait-on-a-mountain-smiling-happy-guy-enjoying.jpg?s=612x612&w=0&k=20&c=WvjAEx3QlWoAn49drp0N1vmxAgGObxWDpoXtaU2iB4Q=";
@@ -32,7 +33,9 @@ const Post = () => {
           perferendis cumque minus aliquam vero, quam corporis aliquid hic
           incidunt totam natus? Cum.
         </div>
-        <img src={photoUrl} alt="img" className="mt-4 mb-2 cursor-pointer " />
+        <Link to={"/image/here-is-an-image"}>
+          <img src={photoUrl} alt="img" className="mt-4 mb-2 cursor-pointer " />
+        </Link>
       </div>
 
       <p className="text-end px-2 text-xs font-semibold text-gray-500 cursor-pointer">

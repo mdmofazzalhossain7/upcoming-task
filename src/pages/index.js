@@ -4,3 +4,4 @@ export { default as Announcements } from "./Announcements";
 export { default as Tasks } from "./Tasks";
 export { default as Profile } from "./Profile";
 export { default as Login } from "./Login";
+export { default as ViewImage } from "./ViewImage";

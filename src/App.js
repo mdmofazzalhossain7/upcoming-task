@@ -6,6 +6,7 @@ import {
   Login,
   Profile,
   Tasks,
+  ViewImage,
 } from "./pages";
 import { Topbar, Navbar } from "./components";
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="profile" element={<Profile />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/log-in" element={<Login />} />
+        <Route path="/image/:id" element={<ViewImage />} />
       </Routes>
       <Navbar />
     </Router>
