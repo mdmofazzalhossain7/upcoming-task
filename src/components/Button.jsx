@@ -1,7 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Button = ({ title, IconComponent, styles, path }) => {
+const Button = ({
+  title = "Button",
+  IconComponent,
+  styles,
+  path,
+  backgroundColor = "black",
+}) => {
   const navigate = useNavigate();
 
   return (

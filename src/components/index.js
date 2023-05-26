@@ -13,3 +13,4 @@ export { default as TopAd } from "./TopAd";
 export { default as Post } from "./Post";
 export { default as IconText } from "./IconText";
 export { default as ProfileInfo } from "./ProfileInfo";
+export { default as InputField } from "./InputField";
